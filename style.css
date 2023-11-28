@@ -1,0 +1,42 @@
+body{
+    font-family: 'Lilita One', sans-serif;
+}
+
+p{
+    top: 40% !important;
+}
+
+button{
+    font-family: 'Lilita One', sans-serif;
+    border-radius: 5px;
+    font-size: 20px;
+    position: absolute;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.centered-object{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.decrease-button{
+    left: 43%;
+}
+
+.reset-button{
+    left: 50%;
+}
+
+.increase-button{
+    left: 57%;
+}
