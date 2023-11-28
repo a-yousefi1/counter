@@ -7,7 +7,7 @@ function number_color(number){
         document.querySelector("p").style.color = "green"
     }
     else {
-        document.querySelector("p").style.color = "white"
+        document.querySelector("p").style.color = "black"
     }
 }
 
@@ -20,14 +20,14 @@ function decrease_number(){
 
 function reset_number(){
     let number = Number(document.querySelector("p").textContent)
-    number -= 1
+    number = 0
     document.querySelector("p").innerHTML = number
     number_color(number)
 }
 
 function increase_number(){
     let number = Number(document.querySelector("p").textContent)
-    number -= 1
+    number += 1
     document.querySelector("p").innerHTML = number
     number_color(number)
 }
