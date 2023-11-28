@@ -1,9 +1,11 @@
 body{
     font-family: 'Lilita One', sans-serif;
+    background-color: rgb(159, 255, 223);
 }
 
 p{
-    top: 40% !important;
+    top: 35% !important;
+    font-size: 60px;
 }
 
 button{
@@ -22,9 +24,14 @@ button:hover{
     color: white;
 }
 
+h1{
+    font-size: 70px;
+
+}
+
 .centered-object{
     position: absolute;
-    top: 35%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
