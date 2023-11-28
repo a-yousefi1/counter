@@ -17,3 +17,10 @@ function decrease_number(){
     document.querySelector("p").innerHTML = number
     number_color(number)
 }
+
+function reset_number(){
+    let number = Number(document.querySelector("p").textContent)
+    number -= 1
+    document.querySelector("p").innerHTML = number
+    number_color(number)
+}
